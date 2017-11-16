@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>VictoryScreen Event Sheet</name>
+    <events>
+        <event-group description="" sid="336087444503791" title="Layout Start 4">
+            <sub-events>
+                <event-block sid="591627367914156">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="347060984714572" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="611393901394453" type="System">
+                            <param id="0" name="Layout">Title</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="765941949201618">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="277868067246228" type="Keyboard">
+                            <param id="0" name="Key">32 (Space)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="473623033163929" type="System">
+                            <param id="0" name="Layout">Level One</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="997072375071886">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="830858322164345" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="634745815152764" type="Audio">
+                            <param id="0" name="Audio file">Wetlands-SoundBible.com-1972469419</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="910355577981181" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

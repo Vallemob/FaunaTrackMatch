@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Two Event Sheet</name>
+    <events>
+        <variable comment="Timer" constant="0" name="CountDown2" sid="307375421533682" static="0" type="number">60</variable>
+        <variable constant="0" name="Unmatched" sid="686153386166192" static="0" type="number">2</variable>
+        <variable comment="Lives" constant="0" name="Tries2" sid="413907382908285" static="0" type="number">3</variable>
+        <event-group description="" sid="263302087508066" title="Level Start2">
+            <sub-events>
+                <event-block sid="260387927663446">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="858656681349620" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="572477998953111" type="Audio">
+                            <param id="0" name="Audio file">rainforest_ambience-GlorySunz-1938133500</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="489029381483362" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="695983672104903" title="Correct Matches2">
+            <sub-events>
+                <event-block sid="249251027825866">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="476841208135614" type="OwlPrint">
+                            <param id="0" name="Object">Owl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="489153601474448" type="Audio">
+                            <param id="0" name="Audio file">Owl Hooting-SoundBible.com-1155496330</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="628341896200320" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="837063949927208" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="183368702431376" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="110291503603362" type="Owl" />
+                        <action id="-9" name="Destroy" sid="102046632826461" type="OwlPrint" />
+                    </actions>
+                </event-block>
+                <event-block sid="968510215168774">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="840185767338155" type="OwlPrint">
+                            <param id="0" name="Object">Owl</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="363938324685887" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="299766656807867" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="238881002378066">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="764986163145181" type="CrowPrint">
+                            <param id="0" name="Object">Crow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="247505461423646" type="Audio">
+                            <param id="0" name="Audio file">Crow_Call_2-JimBob-1215724899</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="198328598979643" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="627154085762728" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="723151810552043" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="376495656197356" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="568905199976611" type="Crow" />
+                        <action id="-9" name="Destroy" sid="421419873777349" type="CrowPrint" />
+                    </actions>
+                </event-block>
+                <event-block sid="179884729743357">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="801463507246248" type="CrowPrint">
+                            <param id="0" name="Object">Crow</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="635666641252107" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="969366592133418" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="315921791209565" title="Incorrect Matches2">
+            <sub-events>
+                <event-block any="1" sid="390115544204620">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="284696603960957" type="CrowPrint">
+                            <param id="0" name="Object">BaldEagle</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="148509626510219" type="OwlPrint">
+                            <param id="0" name="Object">BaldEagle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="266401568830254" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="105942797304899" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

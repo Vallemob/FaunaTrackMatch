@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Three Event Sheet</name>
+    <events>
+        <variable comment="Timer" constant="0" name="CountDown3" sid="811555524574015" static="0" type="number">60</variable>
+        <variable comment="Lives" constant="0" name="Tries3" sid="348737165276143" static="0" type="number">3</variable>
+        <event-group description="" sid="976834539595775" title="Level Start3">
+            <sub-events>
+                <event-block sid="972890330424973">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="566898203640882" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="580484395534216" type="Audio">
+                            <param id="0" name="Audio file">Nature Ambiance-SoundBible.com-1444637890</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="140802085763733" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="569018787650411" title="Correct Matches3">
+            <sub-events>
+                <event-block sid="718196848041010">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="579562957047628" type="FoxPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="918518375079087" type="Audio">
+                            <param id="0" name="Audio file">SQWGrey</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="495593901074211" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="502649785836616" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="674304170479798" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="213007820646552">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="385223685369127" type="WolfPrint">
+                            <param id="0" name="Object">wolf</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="996177528417703" type="Audio">
+                            <param id="0" name="Audio file">cartoon-wolf-daniel_simon</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="976309932751731" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="663512228383529" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="103453957647597" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="678747437289825" title="Incorrect Matches3">
+            <sub-events>
+                <event-block any="1" sid="597388235255671">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="559688589704869" type="FoxPrint">
+                            <param id="0" name="Object">wolf</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="419007401781657" type="FoxPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="984545483005407" type="FoxPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="267078561441359" type="WolfPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="726369101856890" type="WolfPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="782038984504119" type="WolfPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="303957228172046" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="551339509548038" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

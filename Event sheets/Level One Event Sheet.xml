@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level One Event Sheet</name>
+    <events>
+        <variable comment="Timer" constant="0" name="CountDown" sid="195830811828798" static="0" type="number">30</variable>
+        <variable comment="Lives" constant="0" name="Tries" sid="976918707449240" static="0" type="number">3</variable>
+        <event-group description="" sid="146680782119947" title="Level Start">
+            <sub-events>
+                <event-block sid="603881604378607">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="377059708272576" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="984618903113105" type="Audio">
+                            <param id="0" name="Audio file">Nature Ambiance-SoundBible.com-1444637890</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="309237067529824" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="220815557033330" title="Correct Matches">
+            <sub-events>
+                <event-block sid="488421862876510">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="482005639267225" type="BearPrint">
+                            <param id="0" name="Object">Bear</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="677421725331117" type="Audio">
+                            <param id="0" name="Audio file">Bear Growling-SoundBible.com-2376031</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="598399693820049" type="System">
+                            <param id="0" name="Layout">Level Two</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="546717191288634" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="785928837838178" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="883907419921804" title="Incorrect Matches">
+            <sub-events>
+                <event-block sid="299894936931990">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="457123806576981" type="BearPrint">
+                            <param id="0" name="Object">RedPanda</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="609245587964076" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="622989606410034" type="System">
+                            <param id="0" name="Layout">Level Two</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

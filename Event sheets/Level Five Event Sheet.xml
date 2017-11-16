@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Five Event Sheet</name>
+    <events>
+        <variable comment="Timer" constant="0" name="CountDown5" sid="421664882398957" static="0" type="number">30</variable>
+        <variable comment="Lives" constant="0" name="Tries5" sid="779113987434612" static="0" type="number">3</variable>
+        <event-group description="" sid="637633627019565" title="Level Start5">
+            <sub-events>
+                <event-block sid="241895393716031">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="446760856001701" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="103109263643060" type="Audio">
+                            <param id="0" name="Audio file">Nature Ambiance-SoundBible.com-1444637890</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="669673961382848" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="224439118052565" title="Correct Matches5">
+            <sub-events>
+                <event-block sid="141711327017129">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="629401270734634" type="DogPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="162367849680889" type="Audio">
+                            <param id="0" name="Audio file">Puppy Dog Barking-SoundBible.com-871302192</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="768833109212888" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="741609652339645" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="142237737769904" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="645033333036833">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="711823066415476" type="CatPrint">
+                            <param id="0" name="Object">Cat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="239297419053772" type="Audio">
+                            <param id="0" name="Audio file">322012__abolla__cat-purr</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="458676936898056" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="244853136937614" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="559918676772947" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="912473880096910" title="Incorrect Matches5">
+            <sub-events>
+                <event-block any="1" sid="207099628541865">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="272767232519171" type="CatPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="753642935413385" type="DogPrint">
+                            <param id="0" name="Object">Cat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="851028886394582" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="530265197893374" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

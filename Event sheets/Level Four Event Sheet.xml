@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Four Event Sheet</name>
+    <events>
+        <variable comment="Timer" constant="0" name="CountDown4" sid="268797706396596" static="0" type="number">120</variable>
+        <variable comment="Lives" constant="0" name="Tries4" sid="384785210033219" static="0" type="number">3</variable>
+        <event-group description="" sid="315563686460792" title="Level Start4">
+            <sub-events>
+                <event-block sid="860179823765194">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="264655436514722" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="656594781814139" type="Audio">
+                            <param id="0" name="Audio file">rainforest_ambience-GlorySunz-1938133500</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="787018886289024" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="919099282721212" title="Correct Matches4">
+            <sub-events>
+                <event-block sid="645783231955058">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="569516982278610" type="CowPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="994978165311927" type="Audio">
+                            <param id="0" name="Audio file">Single Cow-SoundBible.com-2051754137</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="883200044870627" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="449954177139090" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="149995920008447" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="926376200160939">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="234568043294500" type="DeerPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="261498719926543" type="Audio">
+                            <param id="0" name="Audio file">Red_stag_roar-Juan_Carlos_-2004708707</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="385876563925724" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="714694766787180" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="182699007910023" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="556662323988787">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="644113933195768" type="BoarPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="844967844003980" type="Audio">
+                            <param id="0" name="Audio file">76796__robinhood76__01161-boar-oink-3</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="202454570864731" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="870785084243952" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="891568583575110" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="592067362845708">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="328368844932647" type="PigPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="418320634581757" type="Audio">
+                            <param id="0" name="Audio file">Pig-SoundBible.com-1026656068</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="178898092767119" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="135689214061901" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="783685447877816" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="589513720488597" title="Incorrect Matches4">
+            <sub-events>
+                <event-block any="1" sid="973449186175851">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="157889616614372" type="CowPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="970988161155320" type="CowPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="998664089750941" type="CowPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="322006223268416" type="DeerPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="475553078232612" type="DeerPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="224418677022871" type="DeerPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="907317238380964" type="BoarPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="804481073290719" type="BoarPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="672516558361856" type="BoarPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="531044747115703" type="PigPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="632228029140015" type="PigPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="681503003654968" type="PigPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="841814751998370" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="111708238311238" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
