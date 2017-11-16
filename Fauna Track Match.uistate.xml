@@ -15,11 +15,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">Level One</layout>
         <layout order="4">Level Two</layout>
         <event-sheet order="2">Controls Event Sheet</event-sheet>
-        <event-sheet active="1" order="5">Level Two Event Sheet</event-sheet>
-        <event-sheet order="6">Level One Event Sheet</event-sheet>
-        <event-sheet order="7">Level Three Event Sheet</event-sheet>
-        <event-sheet order="8">Level Four Event Sheet</event-sheet>
-        <event-sheet order="9">Level Five Event Sheet</event-sheet>
+        <event-sheet order="5">Level Two Event Sheet</event-sheet>
+        <event-sheet active="1" order="6">Level Three Event Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

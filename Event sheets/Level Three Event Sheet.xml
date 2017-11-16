@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Three Event Sheet</name>
     <events>
+        <variable constant="0" name="Unmatched3" sid="331570590463582" static="0" type="number">2</variable>
         <variable comment="Timer" constant="0" name="CountDown3" sid="811555524574015" static="0" type="number">60</variable>
         <variable comment="Lives" constant="0" name="Tries3" sid="348737165276143" static="0" type="number">3</variable>
         <event-group description="" sid="976834539595775" title="Level Start3">
@@ -49,6 +50,27 @@
                         </action>
                         <action id="0" name="Set text" sid="674304170479798" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="750920727926889" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="806108877353318">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="323442977025437" type="FoxPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="797842573837832" type="System">
+                            <param id="0" name="Variable">Unmatched3</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="169845515725324" type="System">
+                            <param id="0" name="Layout">Level Four</param>
                         </action>
                     </actions>
                 </event-block>
