@@ -12,10 +12,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Title</layout>
         <layout order="1">Controls</layout>
-        <layout order="4">Level Two</layout>
         <layout order="3">Level One</layout>
+        <layout order="4">Level Two</layout>
         <event-sheet order="2">Controls Event Sheet</event-sheet>
         <event-sheet active="1" order="5">Level Two Event Sheet</event-sheet>
+        <event-sheet order="6">Level One Event Sheet</event-sheet>
+        <event-sheet order="7">Level Three Event Sheet</event-sheet>
+        <event-sheet order="8">Level Four Event Sheet</event-sheet>
+        <event-sheet order="9">Level Five Event Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/BearPrint/" />
