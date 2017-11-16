@@ -41,9 +41,6 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="495593901074211" type="System">
-                            <param id="0" name="Layout">Level Four</param>
-                        </action>
                         <action id="-10" name="Add to" sid="502649785836616" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
@@ -52,9 +49,11 @@
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="750920727926889" type="System">
-                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="0" name="Variable">Unmatched3</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="224041115834536" type="Fox" />
+                        <action id="-9" name="Destroy" sid="316624634285580" type="FoxPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="806108877353318">
@@ -96,6 +95,29 @@
                         </action>
                         <action id="0" name="Set text" sid="103453957647597" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="118578462013445" type="System">
+                            <param id="0" name="Variable">Unmatched3</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="643540525974615" type="wolf" />
+                        <action id="-9" name="Destroy" sid="680532559933203" type="WolfPrint" />
+                    </actions>
+                </event-block>
+                <event-block sid="688109955607452">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="797497034124334" type="WolfPrint">
+                            <param id="0" name="Object">wolf</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="714583645901626" type="System">
+                            <param id="0" name="Variable">Unmatched3</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="551740345247674" type="System">
+                            <param id="0" name="Layout">Level Three</param>
                         </action>
                     </actions>
                 </event-block>

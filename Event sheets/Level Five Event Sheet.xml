@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Five Event Sheet</name>
     <events>
+        <variable constant="0" name="Unmatched5" sid="578353003464942" static="0" type="number">2</variable>
         <variable comment="Timer" constant="0" name="CountDown5" sid="421664882398957" static="0" type="number">30</variable>
         <variable comment="Lives" constant="0" name="Tries5" sid="779113987434612" static="0" type="number">3</variable>
         <event-group description="" sid="637633627019565" title="Level Start5">
@@ -40,15 +41,35 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="768833109212888" type="System">
-                            <param id="0" name="Layout">VictoryScreen</param>
-                        </action>
                         <action id="-10" name="Add to" sid="741609652339645" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="0" name="Set text" sid="142237737769904" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="613617259029473" type="System">
+                            <param id="0" name="Variable">Unmatched5</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="263623554700471" type="Pug" />
+                        <action id="-9" name="Destroy" sid="889542175023376" type="DogPrint" />
+                    </actions>
+                </event-block>
+                <event-block sid="906377156237199">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="209550565060819" type="DogPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="215658574947181" type="System">
+                            <param id="0" name="Variable">Unmatched5</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="314680933357799" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
                         </action>
                     </actions>
                 </event-block>
@@ -65,15 +86,35 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="458676936898056" type="System">
-                            <param id="0" name="Layout">VictoryScreen</param>
-                        </action>
                         <action id="-10" name="Add to" sid="244853136937614" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="0" name="Set text" sid="559918676772947" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="753551465044710" type="System">
+                            <param id="0" name="Variable">Unmatched5</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="587620031623759" type="Cat" />
+                        <action id="-9" name="Destroy" sid="247491674113419" type="CatPrint" />
+                    </actions>
+                </event-block>
+                <event-block sid="673604807396032">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="744502781213606" type="CatPrint">
+                            <param id="0" name="Object">Cat</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="116360353170744" type="System">
+                            <param id="0" name="Variable">Unmatched5</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="246570087100913" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
                         </action>
                     </actions>
                 </event-block>
