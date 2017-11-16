@@ -193,9 +193,6 @@
                 </event-block>
                 <event-block sid="323428529865441">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="243157273022893" type="PigPrint">
-                            <param id="0" name="Object">Pig</param>
-                        </condition>
                         <condition id="-14" name="Compare variable" sid="583580036916449" type="System">
                             <param id="0" name="Variable">Unmatched4</param>
                             <param id="1" name="Comparison">3</param>
