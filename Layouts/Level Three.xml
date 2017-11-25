@@ -232,6 +232,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="DogPrint" uid="72">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>76.484466553</x>
+                        <y>156.768692017</y>
+                        <z>0</z>
+                        <width>55.818611145</width>
+                        <height>43.891559601</height>
+                        <depth>0</depth>
+                        <hotspotX>0.47863248</hotspotX>
+                        <hotspotY>0.228260875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="CoyotePrint" uid="73">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>532.014648438</x>
+                        <y>176.672286987</y>
+                        <z>0</z>
+                        <width>60.950099945</width>
+                        <height>56.501190186</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503649652</hotspotX>
+                        <hotspotY>0.582677186</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

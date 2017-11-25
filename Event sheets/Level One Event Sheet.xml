@@ -40,15 +40,27 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="598399693820049" type="System">
-                            <param id="0" name="Layout">Level Two</param>
-                        </action>
                         <action id="-10" name="Add to" sid="546717191288634" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="0" name="Set text" sid="785928837838178" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="281552007288756">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="874643656475967" type="RedPandaPrint">
+                            <param id="0" name="Object">RedPanda</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="444115881051862" type="Audio">
+                            <param id="0" name="Audio file">Red_panda_twittering</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -71,6 +83,21 @@
                         </action>
                         <action id="-2" name="Go to layout" sid="622989606410034" type="System">
                             <param id="0" name="Layout">Level Two</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="352293562540886">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="157228867925850" type="RedPandaPrint">
+                            <param id="0" name="Object">Bear</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="151377633436479" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

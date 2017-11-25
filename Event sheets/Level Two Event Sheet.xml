@@ -121,6 +121,21 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="896304961200408">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="786366639335802" type="EaglePrint">
+                            <param id="0" name="Object">BaldEagle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="702517835877119" type="Audio">
+                            <param id="0" name="Audio file">Bald Eagle-SoundBible.com-2025808531</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="315921791209565" title="Incorrect Matches2">

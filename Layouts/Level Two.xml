@@ -78,8 +78,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>264.650115967</x>
-                        <y>115.217834473</y>
+                        <x>412.150146484</x>
+                        <y>124.717536926</y>
                         <z>0</z>
                         <width>95.439491272</width>
                         <height>79.878700256</height>
@@ -100,8 +100,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>395.135498047</x>
-                        <y>85.611816406</y>
+                        <x>330.636993408</x>
+                        <y>215.612350464</y>
                         <z>0</z>
                         <width>74.815010071</width>
                         <height>105.666564941</height>
@@ -198,6 +198,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.350427359</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EaglePrint" uid="71">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>250.889312744</x>
+                        <y>84.443954468</y>
+                        <z>0</z>
+                        <width>76.741882324</width>
+                        <height>88.827217102</height>
+                        <depth>0</depth>
+                        <hotspotX>0.464566916</hotspotX>
+                        <hotspotY>0.46938777</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

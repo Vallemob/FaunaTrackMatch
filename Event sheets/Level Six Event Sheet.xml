@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Six Event Sheet</name>
+    <events>
+        <event-group description="" sid="575818619434444" title="Level Start6">
+            <sub-events>
+                <event-block sid="171425754854678">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="212604821897834" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="833566531206889" type="Audio">
+                            <param id="0" name="Audio file">African Tribal Circle-SoundBible.com-2038925923</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="841969528451690" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="477527769739135" title="Correct Matches 6">
+            <sub-events>
+                <event-block sid="962220396871313">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="807275020263799" type="CheetahPrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="571718698104511" type="Audio">
+                            <param id="0" name="Audio file">Cheetah-SoundBible.com-17422469</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="441343025239864">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="716005672384746" type="ZebraPrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="554260503685902" type="Audio">
+                            <param id="0" name="Audio file">Zebra Call-SoundBible.com-1950273764</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="691116169191907">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="809629996016872" type="ElephantPrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="129986392780502" type="Audio">
+                            <param id="0" name="Audio file">Elephant Trumpeting-SoundBible.com-1343370148</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="725216292379714">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="376713089345812" type="HippoPrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="984546118980006" type="Audio">
+                            <param id="0" name="Audio file">Hippos In A River-SoundBible.com-248446379</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="327777071721527">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="907690799313292" type="HorsePrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="425221138480977" type="Audio">
+                            <param id="0" name="Audio file">Horse Neigh-SoundBible.com-1740540960</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="641687966176050">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="551488081504180" type="LionPrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="286147242668837" type="Audio">
+                            <param id="0" name="Audio file">Lion Roar-SoundBible.com-718441804</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="405498725071285" title="Incorrect Matches6">
+            <sub-events>
+                <event-block any="1" sid="969470313483294">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="793445848627211" type="CheetahPrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="852654681199378" type="CheetahPrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="232183846574139" type="CheetahPrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="287946627535732" type="CheetahPrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="104226285743529" type="CheetahPrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="303971594939470" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="214102142088593">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="461756314466796" type="ElephantPrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="151550044903378" type="ElephantPrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="808985324645948" type="ElephantPrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="213259220948998" type="ElephantPrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="492402107716884" type="ElephantPrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="526221950982826" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="185871928471225">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="648404673980956" type="HippoPrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="986316234885708" type="HippoPrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="119017537208230" type="HippoPrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="205696720276237" type="HippoPrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="720203383187281" type="HippoPrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="539045786030821" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="864895300404218">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="736936625327818" type="HorsePrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="908785633904396" type="HorsePrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="746826696369667" type="HorsePrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="776293814428525" type="HorsePrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="504531479735309" type="HorsePrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="177524370772170" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="540554596434457">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="855025000721013" type="LionPrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="948464050967334" type="LionPrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="492418700539702" type="LionPrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="373207546696468" type="LionPrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="888330521287424" type="LionPrint">
+                            <param id="0" name="Object">Zebra</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="532777799262585" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="212693482830219">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="109657432087981" type="ZebraPrint">
+                            <param id="0" name="Object">Elephant</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="717545222524953" type="ZebraPrint">
+                            <param id="0" name="Object">Hippo</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="702679828297027" type="ZebraPrint">
+                            <param id="0" name="Object">Horse</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="667059344636363" type="ZebraPrint">
+                            <param id="0" name="Object">Lion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="583100609626276" type="ZebraPrint">
+                            <param id="0" name="Object">Cheetah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="187802880565633" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

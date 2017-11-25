@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Seven Event Sheet</name>
+    <events>
+        <event-group description="" sid="431598052738643" title="Start Level7">
+            <sub-events>
+                <event-block sid="189031531417793">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="310413794535929" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="419113429785404" type="Audio">
+                            <param id="0" name="Audio file">Wetlands-SoundBible.com-1972469419</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="782900141215764" title="Correct Matches7">
+            <sub-events>
+                <event-block sid="734167495149337">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="650309884906177" type="AlligatorPrint">
+                            <param id="0" name="Object">Alligator</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="993615708050071" type="Audio">
+                            <param id="0" name="Audio file">Alligator Hissing-SoundBible.com-638955379</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="602772781918238">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="198207810116852" type="CrocodilePrint">
+                            <param id="0" name="Object">Crocodile</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="145237982432447" type="Audio">
+                            <param id="0" name="Audio file">Alligator Crocodile Growl-SoundBible.com-723655949</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="378446484459189" title="Incorrect Matches7">
+            <sub-events>
+                <event-block any="1" sid="666583375714327">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="419056487593476" type="CrocodilePrint">
+                            <param id="0" name="Object">Alligator</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="588754499438695" type="AlligatorPrint">
+                            <param id="0" name="Object">Crocodile</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="467871139711536" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

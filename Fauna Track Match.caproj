@@ -309,7 +309,7 @@
         </object-type>
         <object-type name="LevelBG3" sid="299770537495147">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\apple-blossom-tile.jpg" />
+            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\Beach-clipart-free-clipart-images-clipartcow-10.jpg" />
         </object-type>
         <object-type name="OwlPrint" sid="348846020418120">
             <plugin id="Sprite" />
@@ -593,7 +593,7 @@
         </object-type>
         <object-type name="LevelBG5" sid="578038352005163">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\autumn-forest-tile.jpg" />
+            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\African_Wallpaper.jpg" />
         </object-type>
         <object-type name="CatPrint" sid="760230251712240">
             <plugin id="Sprite" />
@@ -670,6 +670,533 @@
         <object-type name="Audio" sid="435281754880874">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="RedPandaPrint" sid="347879220047764">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277154828164026" speed="5">
+                    <frame duration="1" hotspotX="0.502994" hotspotY="0.571429" original-source="C:\Users\Berenis\Pictures\Artwork\Red Panda Paw Print.png">
+                        <collision-poly>
+                            <point x="0.155689" y="0.176871" />
+                            <point x="0.497006" y="0.00680272" />
+                            <point x="0.844311" y="0.176871" />
+                            <point x="0.964072" y="0.564626" />
+                            <point x="0.784431" y="0.891156" />
+                            <point x="0.497006" y="0.959184" />
+                            <point x="0.215569" y="0.891156" />
+                            <point x="0.0359281" y="0.564626" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EaglePrint" sid="617936406584527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="944810984463849" speed="5">
+                    <frame duration="1" hotspotX="0.464567" hotspotY="0.469388" original-source="C:\Users\Berenis\Pictures\Artwork\Eagle Talon Print.png">
+                        <collision-poly>
+                            <point x="0.456693" y="0.380952" />
+                            <point x="0.677165" y="0.278912" />
+                            <point x="0.755906" y="0.462585" />
+                            <point x="0.456693" y="0.993197" />
+                            <point x="0.480315" y="0.44898" />
+                            <point x="0.244094" y="0.462585" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CoyotePrint" sid="215200797508944">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154918618859333" speed="5">
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.582677" original-source="C:\Users\Berenis\Pictures\Artwork\Coyote Paw Print .png">
+                        <collision-poly>
+                            <point x="0.189781" y="0.244094" />
+                            <point x="0.49635" y="0.559055" />
+                            <point x="0.810219" y="0.244094" />
+                            <point x="0.956204" y="0.574803" />
+                            <point x="0.773723" y="0.874016" />
+                            <point x="0.49635" y="0.992126" />
+                            <point x="0.226277" y="0.874016" />
+                            <point x="0.0437956" y="0.574803" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelBG6" sid="681762387365765">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911377134213536" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501155" original-source="C:\Users\Berenis\Pictures\Saved Pictures\African_Wallpaper.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lion" sid="967228290936451">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="471420987763453">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962490917438170" speed="5">
+                    <frame duration="1" hotspotX="0.503185" hotspotY="0.518519" original-source="C:\Users\Berenis\Pictures\Artwork\lion head.png">
+                        <collision-poly>
+                            <point x="0.0700637" y="0.0987654" />
+                            <point x="0.496815" y="0.037037" />
+                            <point x="0.929936" y="0.0987654" />
+                            <point x="0.993631" y="0.512346" />
+                            <point x="0.834395" y="0.839506" />
+                            <point x="0.496815" y="0.993827" />
+                            <point x="0.165605" y="0.839506" />
+                            <point x="0.00636943" y="0.512346" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cheetah" sid="744884198138611">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="129721277265286">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="250540610204759" speed="5">
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.582888" original-source="C:\Users\Berenis\Pictures\Artwork\Cheetah Head.png">
+                        <collision-poly>
+                            <point x="0.00564972" y="0.112299" />
+                            <point x="0.497175" y="0.165775" />
+                            <point x="0.99435" y="0.112299" />
+                            <point x="0.881356" y="0.57754" />
+                            <point x="0.740113" y="0.807487" />
+                            <point x="0.497175" y="0.994652" />
+                            <point x="0.259887" y="0.807487" />
+                            <point x="0.118644" y="0.57754" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Elephant" sid="142690516919256">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="897100044041663">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995724142835965" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Elephant Head.png">
+                        <collision-poly>
+                            <point x="0.0364238" y="0.0390071" />
+                            <point x="0.5" y="0.12766" />
+                            <point x="0.963576" y="0.0390071" />
+                            <point x="0.831126" y="0.819149" />
+                            <point x="0.5" y="0.996454" />
+                            <point x="0.168874" y="0.819149" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Hippo" sid="262716971107231">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="749548467779527">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684309194941665" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.55102" original-source="C:\Users\Berenis\Pictures\Artwork\Hippo Head.png">
+                        <collision-poly>
+                            <point x="0.107843" y="0.278912" />
+                            <point x="0.5" y="0.142857" />
+                            <point x="0.892157" y="0.278912" />
+                            <point x="0.892157" y="0.55102" />
+                            <point x="0.941176" y="0.857143" />
+                            <point x="0.0588235" y="0.857143" />
+                            <point x="0.107843" y="0.55102" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Zebra" sid="979180523491980">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="381928223039859">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916955991716484" speed="5">
+                    <frame duration="1" hotspotX="0.503937" hotspotY="0.502994" original-source="C:\Users\Berenis\Pictures\Artwork\Zebra Head  .png">
+                        <collision-poly>
+                            <point x="0.00787402" y="0.125749" />
+                            <point x="0.496063" y="0.0359281" />
+                            <point x="0.992126" y="0.125749" />
+                            <point x="0.874016" y="0.497006" />
+                            <point x="0.755906" y="0.694611" />
+                            <point x="0.496063" y="0.994012" />
+                            <point x="0.244094" y="0.694611" />
+                            <point x="0.125984" y="0.497006" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Horse" sid="444574034272716">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="436575709437413">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181971059121346" speed="5">
+                    <frame duration="1" hotspotX="0.464567" hotspotY="0.518519" original-source="C:\Users\Berenis\Pictures\Artwork\Horse Head .png">
+                        <collision-poly>
+                            <point x="0.00787402" y="0.160494" />
+                            <point x="0.456693" y="0.00617284" />
+                            <point x="0.913386" y="0.160494" />
+                            <point x="0.913386" y="0.512346" />
+                            <point x="0.834646" y="0.808642" />
+                            <point x="0.456693" y="0.993827" />
+                            <point x="0.204724" y="0.716049" />
+                            <point x="0.0866142" y="0.512346" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LionPrint" sid="219445748886743">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380362772177993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Lion Paw Print.png">
+                        <collision-poly>
+                            <point x="0.222222" y="0.183099" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.777778" y="0.183099" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.87037" y="0.922535" />
+                            <point x="0.5" y="0.992958" />
+                            <point x="0.12963" y="0.922535" />
+                            <point x="0.037037" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CheetahPrint" sid="892229233878170">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="140786116977885" speed="5">
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.541667" original-source="C:\Users\Berenis\Pictures\Artwork\Cheetah Paw Print.png">
+                        <collision-poly>
+                            <point x="0.231638" y="0.291667" />
+                            <point x="0.497175" y="0.604167" />
+                            <point x="0.768362" y="0.291667" />
+                            <point x="0.99435" y="0.536458" />
+                            <point x="0.881356" y="0.890625" />
+                            <point x="0.497175" y="0.994792" />
+                            <point x="0.118644" y="0.890625" />
+                            <point x="0.00564972" y="0.536458" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ZebraPrint" sid="511420232043036">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824625400295280" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.521368" original-source="C:\Users\Berenis\Pictures\Artwork\Zebra Hoof Print.png">
+                        <collision-poly>
+                            <point x="0.107843" y="0.179487" />
+                            <point x="0.5" y="0.00854701" />
+                            <point x="0.892157" y="0.179487" />
+                            <point x="0.990196" y="0.521368" />
+                            <point x="0.843137" y="0.820513" />
+                            <point x="0.5" y="0.222222" />
+                            <point x="0.156863" y="0.820513" />
+                            <point x="0.00980392" y="0.521368" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HorsePrint" sid="808519425421149">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184725285605579" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.570093" original-source="C:\Users\Berenis\Pictures\Artwork\Horse Hoof Print .png">
+                        <collision-poly>
+                            <point x="0.107843" y="0.196262" />
+                            <point x="0.5" y="0.00934579" />
+                            <point x="0.892157" y="0.196262" />
+                            <point x="0.990196" y="0.570093" />
+                            <point x="0.843137" y="0.897196" />
+                            <point x="0.5" y="0.242991" />
+                            <point x="0.156863" y="0.897196" />
+                            <point x="0.00980392" y="0.570093" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ElephantPrint" sid="323450112952114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665237206002868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.528736" original-source="C:\Users\Berenis\Pictures\Artwork\Elephant Foot Print.png">
+                        <collision-poly>
+                            <point x="0.254902" y="0.241379" />
+                            <point x="0.5" y="0.0689655" />
+                            <point x="0.745098" y="0.241379" />
+                            <point x="0.990196" y="0.528736" />
+                            <point x="0.794118" y="0.873563" />
+                            <point x="0.5" y="0.988506" />
+                            <point x="0.205882" y="0.873563" />
+                            <point x="0.00980392" y="0.528736" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HippoPrint" sid="357084703478114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612001420473101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Hippo Footprint .png">
+                        <collision-poly>
+                            <point x="0.21831" y="0.142857" />
+                            <point x="0.5" y="0.276786" />
+                            <point x="0.78169" y="0.142857" />
+                            <point x="0.957747" y="0.5" />
+                            <point x="0.78169" y="0.857143" />
+                            <point x="0.5" y="0.946429" />
+                            <point x="0.21831" y="0.857143" />
+                            <point x="0.0422535" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelBG7" sid="892998509801886">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\soft-young-forest.jpg" />
+        </object-type>
+        <object-type name="Alligator" sid="801166206276088">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903685374131529" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Alligator Head.png">
+                        <collision-poly>
+                            <point x="0.21831" y="0.21831" />
+                            <point x="0.5" y="0.00704225" />
+                            <point x="0.78169" y="0.21831" />
+                            <point x="0.922535" y="0.5" />
+                            <point x="0.887324" y="0.887324" />
+                            <point x="0.5" y="0.852113" />
+                            <point x="0.112676" y="0.887324" />
+                            <point x="0.0774648" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Crocodile" sid="235400671168347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533853734489051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Crocodile Head .png">
+                        <collision-poly>
+                            <point x="0.288732" y="0.288732" />
+                            <point x="0.5" y="0.00704225" />
+                            <point x="0.711268" y="0.288732" />
+                            <point x="0.922535" y="0.5" />
+                            <point x="0.887324" y="0.887324" />
+                            <point x="0.5" y="0.852113" />
+                            <point x="0.112676" y="0.887324" />
+                            <point x="0.0774648" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AlligatorPrint" sid="645563558982496">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199383250076700" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.616822" original-source="C:\Users\Berenis\Pictures\Artwork\Alligator claw print.png">
+                        <collision-poly>
+                            <point x="0.147887" y="0.149533" />
+                            <point x="0.5" y="0.00934579" />
+                            <point x="0.78169" y="0.242991" />
+                            <point x="0.887324" y="0.616822" />
+                            <point x="0.78169" y="0.990654" />
+                            <point x="0.5" y="0.803738" />
+                            <point x="0.21831" y="0.990654" />
+                            <point x="0.21831" y="0.616822" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CrocodilePrint" sid="532760885451690">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257737928554849" speed="5">
+                    <frame duration="1" hotspotX="0.543956" hotspotY="0.503401" original-source="C:\Users\Berenis\Pictures\Artwork\Crocodile Claw Print.png">
+                        <collision-poly>
+                            <point x="0.417582" y="0.346939" />
+                            <point x="0.538462" y="0.517007" />
+                            <point x="0.774725" y="0.210884" />
+                            <point x="0.93956" y="0.496599" />
+                            <point x="0.774725" y="0.789116" />
+                            <point x="0.538462" y="0.92517" />
+                            <point x="0.225275" y="0.891156" />
+                            <point x="0.197802" y="0.496599" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelBG8" sid="427460468271773">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\Ocean_Wallpaper.jpg" />
+        </object-type>
+        <object-type name="Seal" sid="959849697876173">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="305193642167120">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="422552628307883" speed="5">
+                    <frame duration="1" hotspotX="0.540984" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Seal Head.png">
+                        <collision-poly>
+                            <point x="0.254098" y="0.119565" />
+                            <point x="0.540984" y="0.0108696" />
+                            <point x="0.786885" y="0.173913" />
+                            <point x="0.991803" y="0.5" />
+                            <point x="0.745902" y="0.771739" />
+                            <point x="0.540984" y="0.826087" />
+                            <point x="0.254098" y="0.880435" />
+                            <point x="0.0901639" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SeaLion" sid="771552343886663">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="719601958787853">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510746077240396" speed="5">
+                    <frame duration="1" hotspotX="0.521368" hotspotY="0.45098" original-source="C:\Users\Berenis\Pictures\Artwork\Sea Lion Head .png">
+                        <collision-poly>
+                            <point x="0.222222" y="0.107843" />
+                            <point x="0.521368" y="0.00980392" />
+                            <point x="0.777778" y="0.156863" />
+                            <point x="0.991453" y="0.45098" />
+                            <point x="0.735043" y="0.696078" />
+                            <point x="0.521368" y="0.990196" />
+                            <point x="0.179487" y="0.843137" />
+                            <point x="0.0940171" y="0.45098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Dolphin" sid="378559023048655">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="738868925155000">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904028686255525" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="C:\Users\Berenis\Pictures\Artwork\Dolphin Head.png">
+                        <collision-poly>
+                            <point x="0.359155" y="0.0121951" />
+                            <point x="0.5" y="0.0731707" />
+                            <point x="0.570423" y="0.134146" />
+                            <point x="0.676056" y="0.256098" />
+                            <point x="0.852113" y="0.865854" />
+                            <point x="0.5" y="0.926829" />
+                            <point x="0.112676" y="0.926829" />
+                            <point x="0.0774648" y="0.256098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SealPrint" sid="383452571503037">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345455990800122" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.471264" original-source="C:\Users\Berenis\Pictures\Artwork\Seal Track.png">
+                        <collision-poly>
+                            <point x="0.222222" y="0.241379" />
+                            <point x="0.5" y="0.0689655" />
+                            <point x="0.569444" y="0.413793" />
+                            <point x="0.569444" y="0.528736" />
+                            <point x="0.5" y="0.931035" />
+                            <point x="0.0833333" y="0.816092" />
+                            <point x="0.0138889" y="0.471264" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SeaLionPrint" sid="204812718206644">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="880960732663066" speed="5">
+                    <frame duration="1" hotspotX="0.663043" hotspotY="0.402597" original-source="C:\Users\Berenis\Pictures\Artwork\Sea Lion Track.png">
+                        <collision-poly>
+                            <point x="0.445652" y="0.142857" />
+                            <point x="0.663043" y="0.012987" />
+                            <point x="0.934783" y="0.0779221" />
+                            <point x="0.934783" y="0.402597" />
+                            <point x="0.826087" y="0.597403" />
+                            <point x="0.336957" y="0.792208" />
+                            <point x="0.228261" y="0.402597" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DolphinPrint" sid="392211981720775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385161585999402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.598039" original-source="C:\Users\Berenis\Pictures\Artwork\Dolphin Flipper Print.png">
+                        <collision-poly>
+                            <point x="0.121212" y="0.107843" />
+                            <point x="0.5" y="0.156863" />
+                            <point x="0.727273" y="0.303922" />
+                            <point x="0.916667" y="0.598039" />
+                            <point x="0.5" y="0.598039" />
+                            <point x="0.537879" y="0.598039" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -680,6 +1207,9 @@
         <layout>Level Three.xml</layout>
         <layout>Level Four.xml</layout>
         <layout>Level Five.xml</layout>
+        <layout>Level Six.xml</layout>
+        <layout>Level Seven.xml</layout>
+        <layout>Level Eight.xml</layout>
         <layout>GameOver.xml</layout>
         <layout>VictoryScreen.xml</layout>
     </layout-folder>
@@ -693,6 +1223,9 @@
         <event-sheet>Level Five Event Sheet.xml</event-sheet>
         <event-sheet>GameOver Event Sheet.xml</event-sheet>
         <event-sheet>VictoryScreen Event Sheet.xml</event-sheet>
+        <event-sheet>Level Six Event Sheet.xml</event-sheet>
+        <event-sheet>Level Seven Event Sheet.xml</event-sheet>
+        <event-sheet>Level Eight Event Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
@@ -747,6 +1280,34 @@
         <file name="Red_panda_twittering.ogg" />
         <file name="sealions.m4a" />
         <file name="sealions.ogg" />
+        <file name="Alligator Crocodile Growl-SoundBible.com-723655949.m4a" />
+        <file name="Alligator Crocodile Growl-SoundBible.com-723655949.ogg" />
+        <file name="Alligator Hissing-SoundBible.com-638955379.m4a" />
+        <file name="Alligator Hissing-SoundBible.com-638955379.ogg" />
+        <file name="Bald Eagle-SoundBible.com-2025808531.m4a" />
+        <file name="Bald Eagle-SoundBible.com-2025808531.ogg" />
+        <file name="Cheetah-SoundBible.com-17422469.m4a" />
+        <file name="Cheetah-SoundBible.com-17422469.ogg" />
+        <file name="Coyote Call-SoundBible.com-2012388009.m4a" />
+        <file name="Coyote Call-SoundBible.com-2012388009.ogg" />
+        <file name="Dolphins Clicks-SoundBible.com-1458516263.m4a" />
+        <file name="Dolphins Clicks-SoundBible.com-1458516263.ogg" />
+        <file name="Elephant Trumpeting-SoundBible.com-1343370148.m4a" />
+        <file name="Elephant Trumpeting-SoundBible.com-1343370148.ogg" />
+        <file name="farm-ambiance-1.m4a" />
+        <file name="farm-ambiance-1.ogg" />
+        <file name="Hippos In A River-SoundBible.com-248446379.m4a" />
+        <file name="Hippos In A River-SoundBible.com-248446379.ogg" />
+        <file name="Horse Neigh-SoundBible.com-1740540960.m4a" />
+        <file name="Horse Neigh-SoundBible.com-1740540960.ogg" />
+        <file name="Lion Roar-SoundBible.com-718441804.m4a" />
+        <file name="Lion Roar-SoundBible.com-718441804.ogg" />
+        <file name="Seal-SoundBible.com-733529197.m4a" />
+        <file name="Seal-SoundBible.com-733529197.ogg" />
+        <file name="Zebra Call-SoundBible.com-1950273764.m4a" />
+        <file name="Zebra Call-SoundBible.com-1950273764.ogg" />
+        <file name="African Tribal Circle-SoundBible.com-2038925923.m4a" />
+        <file name="African Tribal Circle-SoundBible.com-2038925923.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

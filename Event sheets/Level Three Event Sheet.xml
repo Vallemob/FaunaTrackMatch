@@ -121,6 +121,36 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="760375920377632">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="159779967779844" type="DogPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="773027392390796" type="Audio">
+                            <param id="0" name="Audio file">Puppy Dog Barking-SoundBible.com-871302192</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="979097410245253">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="116507851666259" type="CoyotePrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="591886814486675" type="Audio">
+                            <param id="0" name="Audio file">Coyote Call-SoundBible.com-2012388009</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="678747437289825" title="Incorrect Matches3">
@@ -144,6 +174,24 @@
                         </condition>
                         <condition id="0" name="On collision with another object" sid="782038984504119" type="WolfPrint">
                             <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="418782888595110" type="DogPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="969961184097476" type="DogPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="513856213929768" type="DogPrint">
+                            <param id="0" name="Object">wolf</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="506865806413399" type="CoyotePrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="125258249437022" type="CoyotePrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="397914232320075" type="CoyotePrint">
+                            <param id="0" name="Object">wolf</param>
                         </condition>
                     </conditions>
                     <actions>

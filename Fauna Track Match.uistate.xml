@@ -10,16 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Title</layout>
-        <layout order="1">Controls</layout>
-        <layout active="1" order="2">Level One</layout>
-        <layout order="3">Level Two</layout>
-        <layout order="4">Level Three</layout>
-        <layout order="5">Level Four</layout>
-        <layout order="6">Level Five</layout>
-        <layout order="7">VictoryScreen</layout>
-        <event-sheet order="8">Level Five Event Sheet</event-sheet>
-        <event-sheet order="9">Level Four Event Sheet</event-sheet>
+        <layout active="1" order="0">Level Eight</layout>
+        <event-sheet order="1">Level Eight Event Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -61,5 +53,31 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/CatPrint/" />
         <folder expanded="1" path="animation-folder/DogPrint/" />
         <folder expanded="1" path="animation-folder/Cat/" />
+        <folder expanded="1" path="animation-folder/RedPandaPrint/" />
+        <folder expanded="1" path="animation-folder/EaglePrint/" />
+        <folder expanded="1" path="animation-folder/CoyotePrint/" />
+        <folder expanded="1" path="animation-folder/LevelBG6/" />
+        <folder expanded="1" path="animation-folder/Lion/" />
+        <folder expanded="1" path="animation-folder/Cheetah/" />
+        <folder expanded="1" path="animation-folder/Elephant/" />
+        <folder expanded="1" path="animation-folder/Hippo/" />
+        <folder expanded="1" path="animation-folder/Zebra/" />
+        <folder expanded="1" path="animation-folder/Horse/" />
+        <folder expanded="1" path="animation-folder/LionPrint/" />
+        <folder expanded="1" path="animation-folder/CheetahPrint/" />
+        <folder expanded="1" path="animation-folder/ZebraPrint/" />
+        <folder expanded="1" path="animation-folder/HorsePrint/" />
+        <folder expanded="1" path="animation-folder/ElephantPrint/" />
+        <folder expanded="1" path="animation-folder/HippoPrint/" />
+        <folder expanded="1" path="animation-folder/Alligator/" />
+        <folder expanded="1" path="animation-folder/Crocodile/" />
+        <folder expanded="1" path="animation-folder/AlligatorPrint/" />
+        <folder expanded="1" path="animation-folder/CrocodilePrint/" />
+        <folder expanded="1" path="animation-folder/Seal/" />
+        <folder expanded="1" path="animation-folder/SeaLion/" />
+        <folder expanded="1" path="animation-folder/Dolphin/" />
+        <folder expanded="1" path="animation-folder/SealPrint/" />
+        <folder expanded="1" path="animation-folder/SeaLionPrint/" />
+        <folder expanded="1" path="animation-folder/DolphinPrint/" />
     </folders-expanded>
 </c2uistate>

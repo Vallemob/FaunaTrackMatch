@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level Eight Event Sheet</name>
+    <events>
+        <event-group description="" sid="430658809914209" title="Start Level8">
+            <sub-events>
+                <event-block sid="143525879697959">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="503215928649687" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="125967430004511" type="Audio">
+                            <param id="0" name="Audio file">Nature Ambiance-SoundBible.com-1444637890</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="996248736075794" title="Correct Matches8">
+            <sub-events>
+                <event-block sid="558700836725984">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="467565816057367" type="SealPrint">
+                            <param id="0" name="Object">Seal</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="715769767963691" type="Audio">
+                            <param id="0" name="Audio file">Seal-SoundBible.com-733529197</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="140805348636558">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="643134537564776" type="SeaLionPrint">
+                            <param id="0" name="Object">SeaLion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="712763898955562" type="Audio">
+                            <param id="0" name="Audio file">sealions</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="855452625414282">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="462616015945685" type="DolphinPrint">
+                            <param id="0" name="Object">Dolphin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="328828028037386" type="Audio">
+                            <param id="0" name="Audio file">Dolphins Clicks-SoundBible.com-1458516263</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="717619301589381" title="Incorrect Matches8">
+            <sub-events>
+                <event-block any="1" sid="952605741393029">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="934186463070060" type="DolphinPrint">
+                            <param id="0" name="Object">Seal</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="726015415015006" type="DolphinPrint">
+                            <param id="0" name="Object">SeaLion</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="423544116461944" type="SeaLionPrint">
+                            <param id="0" name="Object">Dolphin</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="433426758007515" type="SeaLionPrint">
+                            <param id="0" name="Object">Seal</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="620518974321877" type="SealPrint">
+                            <param id="0" name="Object">Dolphin</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="652397388301404" type="SealPrint">
+                            <param id="0" name="Object">SeaLion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="493840113941476" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
