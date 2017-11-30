@@ -19,7 +19,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="489029381483362" type="LivesFont">
+                        <action id="0" name="Set text" sid="489029381483362" type="ScoreFont">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
                         </action>
                     </actions>
@@ -45,7 +45,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="837063949927208" type="LivesFont">
+                        <action id="0" name="Set text" sid="837063949927208" type="ScoreFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="183368702431376" type="System">
@@ -93,7 +93,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="723151810552043" type="LivesFont">
+                        <action id="0" name="Set text" sid="723151810552043" type="ScoreFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="376495656197356" type="System">

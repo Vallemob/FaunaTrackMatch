@@ -101,8 +101,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>78.500671387</x>
-                        <y>6.499542236</y>
+                        <x>87.500915527</x>
+                        <y>6.999771118</y>
                         <z>0</z>
                         <width>480.999847412</width>
                         <height>122.499656677</height>
@@ -128,8 +128,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>161.75163269</x>
-                        <y>94.00063324</y>
+                        <x>173.251449585</x>
+                        <y>94.500862122</y>
                         <z>0</z>
                         <width>299.499755859</width>
                         <height>72.500045776</height>
@@ -155,8 +155,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>152.25112915</x>
-                        <y>181.499603271</y>
+                        <x>139.750854492</x>
+                        <y>341.499572754</y>
                         <z>0</z>
                         <width>333.000366211</width>
                         <height>34.999969482</height>
@@ -182,8 +182,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>194.749664307</x>
-                        <y>214.999450684</y>
+                        <x>184.249511719</x>
+                        <y>365.999145508</y>
                         <z>0</z>
                         <width>246.000091553</width>
                         <height>49.000152588</height>
@@ -209,8 +209,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>135.749847412</x>
-                        <y>294.999938965</y>
+                        <x>132.249786377</x>
+                        <y>402.499511719</y>
                         <z>0</z>
                         <width>351.499542236</width>
                         <height>43.00012207</height>
@@ -236,8 +236,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>113.749847412</x>
-                        <y>336.000091553</y>
+                        <x>117.249908447</x>
+                        <y>443.499664307</y>
                         <z>0</z>
                         <width>407.000030518</width>
                         <height>37.499908447</height>
@@ -248,12 +248,12 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LivesFont" uid="69">
+                <instance type="ScoreFont" uid="69">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-24,400,0</font>
-                        <color>255,0,0</color>
+                        <font>Blackadder ITC,-64,400,0</font>
+                        <color>0,255,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -263,11 +263,65 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>60.759170532</x>
-                        <y>33.000137329</y>
+                        <x>193.260131836</x>
+                        <y>144.000518799</y>
                         <z>0</z>
-                        <width>73.499511719</width>
-                        <height>32.999832153</height>
+                        <width>283.999694824</width>
+                        <height>88.999847412</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PlayerScoreFont" uid="105">
+                    <properties>
+                        <text>Your Score:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Blackadder ITC,-32,400,0</font>
+                        <color>0,51,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>18.759063721</x>
+                        <y>161.250274658</y>
+                        <z>0</z>
+                        <width>204.000305176</width>
+                        <height>49.000167847</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnswersControl" uid="106">
+                    <properties>
+                        <text>Press &apos;Shift&apos; For Answer Journal!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Blackadder ITC,-26.8,400,0</font>
+                        <color>0,51,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>155.759735107</x>
+                        <y>309.000091553</y>
+                        <z>0</z>
+                        <width>339.500244141</width>
+                        <height>36.499847412</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

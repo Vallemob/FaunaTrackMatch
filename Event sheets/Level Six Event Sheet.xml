@@ -16,7 +16,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="841969528451690" type="LivesFont">
+                        <action id="0" name="Set text" sid="841969528451690" type="ScoreFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                     </actions>

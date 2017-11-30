@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Answer Journal Sheet</name>
+    <events>
+        <event-group description="" sid="968922613507397" title="Music ">
+            <sub-events>
+                <event-block sid="987015351244066">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="915309548174426" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="725920245275658" type="Audio">
+                            <param id="0" name="Audio file">Nature Ambiance-SoundBible.com-1444637890</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="591215132144629" title="Title and Restart">
+            <sub-events>
+                <event-block sid="285409598811029">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="216326618209227" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-21" name="Reset global variables" sid="273910881002470" type="System" />
+                        <action id="-2" name="Go to layout" sid="406142791007101" type="System">
+                            <param id="0" name="Layout">Title</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

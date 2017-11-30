@@ -295,7 +295,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="LivesFont" uid="45">
+                <instance type="ScoreFont" uid="45">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>

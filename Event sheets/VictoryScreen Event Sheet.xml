@@ -29,6 +29,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="860692829891149">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="502515767588546" type="Keyboard">
+                            <param id="0" name="Key">16 (Shift)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="380780001958204" type="System">
+                            <param id="0" name="Layout">Answer Journal</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="997072375071886">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="830858322164345" type="System" />
@@ -40,7 +52,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="910355577981181" type="LivesFont">
+                        <action id="0" name="Set text" sid="910355577981181" type="ScoreFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                     </actions>
