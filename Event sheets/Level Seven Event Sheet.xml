@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Seven Event Sheet</name>
     <events>
+        <variable constant="0" name="unmatched7" sid="498511266398903" static="0" type="number">2</variable>
         <event-group description="" sid="431598052738643" title="Start Level7">
             <sub-events>
                 <event-block sid="189031531417793">
@@ -15,6 +16,9 @@
                             <param id="2" name="Loop">1</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="668644882505921" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                     </actions>
                 </event-block>
@@ -35,6 +39,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="448894135736800" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="271721490386409" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="983159179337477" type="System">
+                            <param id="0" name="Variable">unmatched7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="978149233648708" type="Alligator" />
+                        <action id="-9" name="Destroy" sid="630342986182350" type="AlligatorPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="602772781918238">
@@ -50,6 +67,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="699816618264015" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="769083292614152" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="338458622637283" type="System">
+                            <param id="0" name="Variable">unmatched7</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="516366111555380" type="Crocodile" />
+                        <action id="-9" name="Destroy" sid="116426822366757" type="CrocodilePrint" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -72,9 +102,26 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="462506488750698" type="System">
+                            <param id="0" name="Layout">Level Eight</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="156845457486500">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="739614937221949" type="System">
+                    <param id="0" name="Variable">unmatched7</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="440709691256173" type="System">
+                    <param id="0" name="Layout">Level Eight</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

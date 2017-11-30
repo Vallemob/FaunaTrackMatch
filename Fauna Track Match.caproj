@@ -994,6 +994,11 @@
         </object-type>
         <object-type name="Alligator" sid="801166206276088">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="578426900254491">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903685374131529" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Alligator Head.png">
@@ -1013,6 +1018,11 @@
         </object-type>
         <object-type name="Crocodile" sid="235400671168347">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="261784874775731">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533853734489051" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Berenis\Pictures\Artwork\Crocodile Head .png">
