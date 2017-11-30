@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Eight Event Sheet</name>
     <events>
+        <variable constant="0" name="unmatched8" sid="732256406327236" static="0" type="number">3</variable>
         <event-group description="" sid="430658809914209" title="Start Level8">
             <sub-events>
                 <event-block sid="143525879697959">
@@ -15,6 +16,9 @@
                             <param id="2" name="Loop">1</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="974264434976770" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                     </actions>
                 </event-block>
@@ -35,6 +39,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="344317027458464" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="226776615851866" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="256838451148493" type="System">
+                            <param id="0" name="Variable">unmatched8</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="498014894478829" type="Seal" />
+                        <action id="-9" name="Destroy" sid="940669932206713" type="SealPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="140805348636558">
@@ -50,6 +67,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="361119208953507" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="361953049231956" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="382465639725492" type="System">
+                            <param id="0" name="Variable">unmatched8</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="953657698065191" type="SeaLion" />
+                        <action id="-9" name="Destroy" sid="790279390532667" type="SeaLionPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="855452625414282">
@@ -65,6 +95,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="786986416728113" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="630528698853806" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="400304662179962" type="System">
+                            <param id="0" name="Variable">unmatched8</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="814045257742264" type="Dolphin" />
+                        <action id="-9" name="Destroy" sid="534886104370068" type="DolphinPrint" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -99,9 +142,26 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="500379537061727" type="System">
+                            <param id="0" name="Layout">VictoryScreen</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="793120228788428">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="302849636803736" type="System">
+                    <param id="0" name="Variable">unmatched8</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="916336809885861" type="System">
+                    <param id="0" name="Layout">VictoryScreen</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
