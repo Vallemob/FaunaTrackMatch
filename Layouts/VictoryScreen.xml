@@ -223,7 +223,7 @@
                 </instance>
                 <instance type="Credits2" uid="66">
                     <properties>
-                        <text>Programming By Jose and Marcus and Fabian</text>
+                        <text>Programming By Jose and Marcus</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Blackadder ITC,-24,400,0</font>
                         <color>0,51,0</color>
@@ -236,10 +236,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>113.749847412</x>
-                        <y>336.000091553</y>
+                        <x>160.750396729</x>
+                        <y>332.500061035</y>
                         <z>0</z>
-                        <width>407.000030518</width>
+                        <width>299.999969482</width>
                         <height>37.499908447</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
