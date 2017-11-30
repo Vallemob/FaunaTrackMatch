@@ -380,5 +380,19 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="537600564590728">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="835222279508920" type="System">
+                    <param id="0" name="Variable">unmatched6</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="459686551311032" type="System">
+                    <param id="0" name="Layout">Level Seven</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
