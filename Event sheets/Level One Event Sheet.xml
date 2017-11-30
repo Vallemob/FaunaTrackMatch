@@ -19,7 +19,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="309237067529824" type="ScoreFont">
+                        <action id="0" name="Set text" sid="309237067529824" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                     </actions>
@@ -45,11 +45,11 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="785928837838178" type="ScoreFont">
+                        <action id="0" name="Set text" sid="785928837838178" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="472351285817713" type="System">
-                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="0" name="Variable">unmatched2</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="394652110387751" type="Bear" />
@@ -77,7 +77,7 @@
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="481395463888098" type="System">
-                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="0" name="Variable">unmatched2</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="945909055640790" type="RedPanda" />
@@ -129,7 +129,7 @@
         <event-block sid="861440914133435">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="414185530937331" type="System">
-                    <param id="0" name="Variable">Unmatched</param>
+                    <param id="0" name="Variable">unmatched2</param>
                     <param id="1" name="Comparison">3</param>
                     <param id="2" name="Value">0</param>
                 </condition>
