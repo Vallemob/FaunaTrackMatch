@@ -96,7 +96,7 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Berenis\Pictures\bright-forest-tile.jpg" />
         </object-type>
-        <object-type name="LivesFont" sid="929758354045117">
+        <object-type name="Score" sid="929758354045117">
             <plugin id="Text" />
         </object-type>
         <object-type name="TimerFont" sid="940289861468230">
@@ -1206,6 +1206,9 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="highScore" sid="364260108560325">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

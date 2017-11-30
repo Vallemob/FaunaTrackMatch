@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>VictoryScreen Event Sheet</name>
     <events>
+        <variable constant="0" name="latestScore" sid="507313986881482" static="0" type="number">0</variable>
         <event-group description="" sid="336087444503791" title="Layout Start 4">
             <sub-events>
                 <event-block sid="591627367914156">
@@ -27,17 +28,9 @@
                         <action id="-2" name="Go to layout" sid="473623033163929" type="System">
                             <param id="0" name="Layout">Level One</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block sid="860692829891149">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="502515767588546" type="Keyboard">
-                            <param id="0" name="Key">16 (Shift)</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="380780001958204" type="System">
-                            <param id="0" name="Layout">Answer Journal</param>
+                        <action id="-9" name="Set value" sid="915849172990170" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -52,12 +45,31 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="910355577981181" type="ScoreFont">
+                        <action id="0" name="Set text" sid="910355577981181" type="Score">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="371140554602701" type="System">
+                            <param id="0" name="Variable">latestScore</param>
+                            <param id="1" name="Value">Score</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="277525172156359">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="468196521238453" type="System">
+                    <param id="0" name="First value">latestScore</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">highScore</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="304267271050110" type="System">
+                    <param id="0" name="Variable">highScore</param>
+                    <param id="1" name="Value">latestScore</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

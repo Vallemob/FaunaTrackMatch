@@ -19,8 +19,11 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="309237067529824" type="LivesFont">
+                        <action id="0" name="Set text" sid="309237067529824" type="Score">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="0" name="Set text" sid="391410930978263" type="highScore">
+                            <param id="0" name="Text">&quot;HIGH-SCORE: &quot;&amp;highScore</param>
                         </action>
                     </actions>
                 </event-block>
@@ -45,7 +48,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="785928837838178" type="LivesFont">
+                        <action id="0" name="Set text" sid="785928837838178" type="Score">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="472351285817713" type="System">
@@ -73,7 +76,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="158848914521947" type="LivesFont">
+                        <action id="0" name="Set text" sid="158848914521947" type="Score">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="481395463888098" type="System">

@@ -191,7 +191,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ScoreFont" uid="16">
+                <instance type="Score" uid="16">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -206,8 +206,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2.749389648</x>
-                        <y>7.250183105</y>
+                        <x>1.248641968</x>
+                        <y>35.249855042</y>
                         <z>0</z>
                         <width>73.499511719</width>
                         <height>32.999832153</height>
@@ -238,6 +238,33 @@
                         <z>0</z>
                         <width>200.500244141</width>
                         <height>36.49987793</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="highScore" uid="105">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Blackadder ITC,-19,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1.248809814</x>
+                        <y>1.999801636</y>
+                        <z>0</z>
+                        <width>72.999298096</width>
+                        <height>28.999542236</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

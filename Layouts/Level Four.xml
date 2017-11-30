@@ -276,6 +276,33 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="highScore" uid="108">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Blackadder ITC,-24,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0.229751587</x>
+                        <y>0.999656677</y>
+                        <z>0</z>
+                        <width>74.499206543</width>
+                        <height>31.000061035</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -295,7 +322,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ScoreFont" uid="45">
+                <instance type="Score" uid="45">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -310,8 +337,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2.749389648</x>
-                        <y>7.250183105</y>
+                        <x>0.249038696</x>
+                        <y>32.25</y>
                         <z>0</z>
                         <width>73.499511719</width>
                         <height>32.999832153</height>

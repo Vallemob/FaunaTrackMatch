@@ -28,6 +28,10 @@
                         <action id="-2" name="Go to layout" sid="279904047173145" type="System">
                             <param id="0" name="Layout">Level One</param>
                         </action>
+                        <action id="-9" name="Set value" sid="704786843891718" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
