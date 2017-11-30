@@ -4,7 +4,7 @@
     <name>Level Two Event Sheet</name>
     <events>
         <variable comment="Timer" constant="0" name="CountDown2" sid="307375421533682" static="0" type="number">60</variable>
-        <variable constant="0" name="Unmatched" sid="686153386166192" static="0" type="number">2</variable>
+        <variable constant="0" name="Unmatched" sid="686153386166192" static="0" type="number">3</variable>
         <variable comment="Lives" constant="0" name="Tries2" sid="413907382908285" static="0" type="number">3</variable>
         <event-group description="" sid="263302087508066" title="Level Start2">
             <sub-events>
@@ -19,7 +19,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="489029381483362" type="ScoreFont">
+                        <action id="0" name="Set text" sid="489029381483362" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
                         </action>
                     </actions>
@@ -45,7 +45,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="837063949927208" type="ScoreFont">
+                        <action id="0" name="Set text" sid="837063949927208" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="183368702431376" type="System">
@@ -54,23 +54,6 @@
                         </action>
                         <action id="-9" name="Destroy" sid="110291503603362" type="Owl" />
                         <action id="-9" name="Destroy" sid="102046632826461" type="OwlPrint" />
-                    </actions>
-                </event-block>
-                <event-block sid="968510215168774">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="840185767338155" type="OwlPrint">
-                            <param id="0" name="Object">Owl</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="363938324685887" type="System">
-                            <param id="0" name="Variable">Unmatched</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="299766656807867" type="System">
-                            <param id="0" name="Layout">Level Three</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="238881002378066">
@@ -86,14 +69,11 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="198328598979643" type="System">
-                            <param id="0" name="Layout">Level Three</param>
-                        </action>
                         <action id="-10" name="Add to" sid="627154085762728" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="723151810552043" type="ScoreFont">
+                        <action id="0" name="Set text" sid="723151810552043" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="376495656197356" type="System">
@@ -102,23 +82,6 @@
                         </action>
                         <action id="-9" name="Destroy" sid="568905199976611" type="Crow" />
                         <action id="-9" name="Destroy" sid="421419873777349" type="CrowPrint" />
-                    </actions>
-                </event-block>
-                <event-block sid="179884729743357">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="801463507246248" type="CrowPrint">
-                            <param id="0" name="Object">Crow</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="635666641252107" type="System">
-                            <param id="0" name="Variable">Unmatched</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="969366592133418" type="System">
-                            <param id="0" name="Layout">Level Three</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="896304961200408">
@@ -134,6 +97,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="216803831135026" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="272886941465621" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="283619659109723" type="System">
+                            <param id="0" name="Variable">Unmatched</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="828189704414559" type="BaldEagle" />
+                        <action id="-9" name="Destroy" sid="921940408289502" type="EaglePrint" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -161,7 +137,63 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block any="1" sid="503896986592637">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="917617160569715" type="CrowPrint">
+                            <param id="0" name="Object">Owl</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="561570711456588" type="EaglePrint">
+                            <param id="0" name="Object">Owl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="817859121920463" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="180700770839647" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="207860500496680">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="296360648045425" type="EaglePrint">
+                            <param id="0" name="Object">Crow</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="227659082779757" type="OwlPrint">
+                            <param id="0" name="Object">Crow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="901209555905609" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="589295866022500" type="System">
+                            <param id="0" name="Layout">Level Three</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="996433449322831">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="517840110329162" type="System">
+                    <param id="0" name="Variable">Unmatched</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="693766746421497" type="System">
+                    <param id="0" name="Layout">Level Three</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

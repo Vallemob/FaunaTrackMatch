@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Three Event Sheet</name>
     <events>
-        <variable constant="0" name="Unmatched3" sid="331570590463582" static="0" type="number">2</variable>
+        <variable constant="0" name="Unmatched3" sid="331570590463582" static="0" type="number">4</variable>
         <variable comment="Timer" constant="0" name="CountDown3" sid="811555524574015" static="0" type="number">60</variable>
         <variable comment="Lives" constant="0" name="Tries3" sid="348737165276143" static="0" type="number">3</variable>
         <event-group description="" sid="976834539595775" title="Level Start3">
@@ -19,7 +19,7 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="140802085763733" type="ScoreFont">
+                        <action id="0" name="Set text" sid="140802085763733" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
                         </action>
                     </actions>
@@ -45,7 +45,7 @@
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="674304170479798" type="ScoreFont">
+                        <action id="0" name="Set text" sid="674304170479798" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="750920727926889" type="System">
@@ -54,23 +54,6 @@
                         </action>
                         <action id="-9" name="Destroy" sid="224041115834536" type="Fox" />
                         <action id="-9" name="Destroy" sid="316624634285580" type="FoxPrint" />
-                    </actions>
-                </event-block>
-                <event-block sid="806108877353318">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="323442977025437" type="FoxPrint">
-                            <param id="0" name="Object">Fox</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="797842573837832" type="System">
-                            <param id="0" name="Variable">Unmatched3</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="169845515725324" type="System">
-                            <param id="0" name="Layout">Level Four</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="213007820646552">
@@ -86,14 +69,11 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="976309932751731" type="System">
-                            <param id="0" name="Layout">Level Four</param>
-                        </action>
                         <action id="-10" name="Add to" sid="663512228383529" type="System">
                             <param id="0" name="Variable">Score</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="0" name="Set text" sid="103453957647597" type="ScoreFont">
+                        <action id="0" name="Set text" sid="103453957647597" type="LivesFont">
                             <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="118578462013445" type="System">
@@ -102,23 +82,6 @@
                         </action>
                         <action id="-9" name="Destroy" sid="643540525974615" type="wolf" />
                         <action id="-9" name="Destroy" sid="680532559933203" type="WolfPrint" />
-                    </actions>
-                </event-block>
-                <event-block sid="688109955607452">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="797497034124334" type="WolfPrint">
-                            <param id="0" name="Object">wolf</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="714583645901626" type="System">
-                            <param id="0" name="Variable">Unmatched3</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="551740345247674" type="System">
-                            <param id="0" name="Layout">Level Three</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="760375920377632">
@@ -134,6 +97,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="495127889243029" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="218585502989782" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="805250934430637" type="System">
+                            <param id="0" name="Variable">Unmatched3</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="863624952958315" type="Pug" />
+                        <action id="-9" name="Destroy" sid="641479421519638" type="DogPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="979097410245253">
@@ -149,6 +125,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="895297365110699" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="141052541246630" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot; &amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="469030433492889" type="System">
+                            <param id="0" name="Variable">Unmatched3</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="352489573340998" type="Coyote" />
+                        <action id="-9" name="Destroy" sid="970696169724574" type="CoyotePrint" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -208,5 +197,19 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="590639303061050">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="877483725979633" type="System">
+                    <param id="0" name="Variable">Unmatched3</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="385873098103255" type="System">
+                    <param id="0" name="Layout">Level Four</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
