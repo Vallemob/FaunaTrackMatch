@@ -94,7 +94,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="246570087100913" type="System">
-                            <param id="0" name="Layout">VictoryScreen</param>
+                            <param id="0" name="Layout">Level Six</param>
                         </action>
                     </actions>
                 </event-block>
@@ -119,7 +119,7 @@
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="530265197893374" type="System">
-                            <param id="0" name="Layout">VictoryScreen</param>
+                            <param id="0" name="Layout">Level Six</param>
                         </action>
                     </actions>
                 </event-block>

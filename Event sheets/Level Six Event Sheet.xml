@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Six Event Sheet</name>
     <events>
+        <variable constant="0" name="unmatched6" sid="313679306995594" static="0" type="number">6</variable>
         <event-group description="" sid="575818619434444" title="Level Start6">
             <sub-events>
                 <event-block sid="171425754854678">
@@ -38,6 +39,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="428748919783149" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="350581806960668" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="854472374535159" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="664498212584177" type="Cheetah" />
+                        <action id="-9" name="Destroy" sid="860241302479186" type="CheetahPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="441343025239864">
@@ -53,6 +67,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="867810798590430" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="455680386908643" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="751681640140336" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="200434456890068" type="Zebra" />
+                        <action id="-9" name="Destroy" sid="118790709279473" type="ZebraPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="691116169191907">
@@ -68,6 +95,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="804203459845721" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="772806849043203" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="319777470506813" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="806732510382808" type="Elephant" />
+                        <action id="-9" name="Destroy" sid="526210385393699" type="ElephantPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="725216292379714">
@@ -83,6 +123,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="182750475313722" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="128044986574987" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="929350080557226" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="524710619833458" type="Hippo" />
+                        <action id="-9" name="Destroy" sid="936242724488528" type="HippoPrint" />
                     </actions>
                 </event-block>
                 <event-block sid="327777071721527">
@@ -98,6 +151,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="658265005342344" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="326529061141525" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="539994851437275" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="906698464421106" type="Horse" />
+                        <action id="-9" name="Destroy" sid="299178255579249" type="HorsePrint" />
                     </actions>
                 </event-block>
                 <event-block sid="641687966176050">
@@ -113,6 +179,19 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="525588919472344" type="System">
+                            <param id="0" name="Variable">Score</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="833057151528447" type="LivesFont">
+                            <param id="0" name="Text">&quot;Score: &quot;&amp;Score</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="650714487578498" type="System">
+                            <param id="0" name="Variable">unmatched6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="156600234193350" type="Lion" />
+                        <action id="-9" name="Destroy" sid="180665306507615" type="LionPrint" />
                     </actions>
                 </event-block>
             </sub-events>
@@ -144,6 +223,9 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="547236148902845" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block any="1" sid="214102142088593">
@@ -170,6 +252,9 @@
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="304526017689312" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
                         </action>
                     </actions>
                 </event-block>
@@ -198,6 +283,9 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="754964963271108" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block any="1" sid="864895300404218">
@@ -224,6 +312,9 @@
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="672482679204377" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
                         </action>
                     </actions>
                 </event-block>
@@ -252,6 +343,9 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="716700934261288" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block any="1" sid="212693482830219">
@@ -279,9 +373,26 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="670817499437200" type="System">
+                            <param id="0" name="Layout">Level Seven</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="537600564590728">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="835222279508920" type="System">
+                    <param id="0" name="Variable">unmatched6</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="459686551311032" type="System">
+                    <param id="0" name="Layout">Level Seven</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
