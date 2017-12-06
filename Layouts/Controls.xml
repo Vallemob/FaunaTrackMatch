@@ -166,87 +166,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Instruction3" uid="6">
-                    <properties>
-                        <text>But be careful! There is a time limit!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>163.749481201</x>
-                        <y>168.500244141</y>
-                        <z>0</z>
-                        <width>326.999969482</width>
-                        <height>34.999938965</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Instruction4" uid="12">
-                    <properties>
-                        <text>If you get THREE wrong or time is up, its gameover!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>77.250213623</x>
-                        <y>217.499801636</y>
-                        <z>0</z>
-                        <width>486.999481201</width>
-                        <height>35.499816895</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Instruction5" uid="13">
-                    <properties>
-                        <text>Number of lives are in RED while the time limit is in BLUE</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>31.250061035</x>
-                        <y>268.000030518</y>
-                        <z>0</z>
-                        <width>579.499816895</width>
-                        <height>37.000091553</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="ControlControl" uid="14">
                     <properties>
                         <text>Press &apos;Enter&apos; to PLAY!</text>
@@ -262,8 +181,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>173.249816895</x>
-                        <y>332.250732422</y>
+                        <x>166.730041504</x>
+                        <y>225.141708374</y>
                         <z>0</z>
                         <width>315.50012207</width>
                         <height>48.000457764</height>
