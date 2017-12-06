@@ -90,8 +90,8 @@
                     <properties>
                         <text>Fauna Track Match</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-64,400,0</font>
-                        <color>0,51,0</color>
+                        <font>Harlow Solid Italic,-64,400,1</font>
+                        <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -101,10 +101,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>78.500671387</x>
-                        <y>6.499542236</y>
+                        <x>34.000488281</x>
+                        <y>7.999847412</y>
                         <z>0</z>
-                        <width>480.999847412</width>
+                        <width>559.50012207</width>
                         <height>122.499656677</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -117,8 +117,8 @@
                     <properties>
                         <text>An Animal Footprint Matching Game</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-34.8,400,0</font>
-                        <color>0,51,0</color>
+                        <font>Harlow Solid Italic,-26.8,400,1</font>
+                        <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -144,8 +144,8 @@
                     <properties>
                         <text>Press &apos;Enter&apos; For Controls!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
-                        <color>0,51,0</color>
+                        <font>Harlow Solid Italic,-26.8,400,1</font>
+                        <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -171,8 +171,8 @@
                     <properties>
                         <text>Press &apos;Space&apos; To Start!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
-                        <color>0,51,0</color>
+                        <font>Harlow Solid Italic,-26.8,400,1</font>
+                        <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -182,10 +182,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>185.249969482</x>
-                        <y>217.999664307</y>
+                        <x>162.750488281</x>
+                        <y>220.999481201</y>
                         <z>0</z>
-                        <width>246.000091553</width>
+                        <width>278.500244141</width>
                         <height>49.000152588</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

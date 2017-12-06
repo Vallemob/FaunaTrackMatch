@@ -89,7 +89,7 @@
                     <properties>
                         <text>Controls</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-48,400,0</font>
+                        <font>Harlow Solid Italic,-48,400,1</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -116,7 +116,7 @@
                     <properties>
                         <text>Use the mouse to click and drag the correct animal to the shown footprint</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
+                        <font>Harlow Solid Italic,-21.2,400,1</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -127,11 +127,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>11.748962402</x>
-                        <y>81.499984741</y>
+                        <x>28.513824463</x>
+                        <y>83.983612061</y>
                         <z>0</z>
-                        <width>621.499755859</width>
-                        <height>38.000152588</height>
+                        <width>483.343994141</width>
+                        <height>72.15083313</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -143,7 +143,7 @@
                     <properties>
                         <text>As you progress, you need to match more footprints correctly</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-26.8,400,0</font>
+                        <font>Harlow Solid Italic,-26.8,400,1</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -154,8 +154,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>62.749755859</x>
-                        <y>124.499526978</y>
+                        <x>60.576507568</x>
+                        <y>156.78755188</y>
                         <z>0</z>
                         <width>514.000183105</width>
                         <height>38.999847412</height>
@@ -168,9 +168,9 @@
                 </instance>
                 <instance type="ControlControl" uid="14">
                     <properties>
-                        <text>Press &apos;Enter&apos; to PLAY!</text>
+                        <text>Press &apos;Enter&apos; to Play!</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Blackadder ITC,-32,400,0</font>
+                        <font>Harlow Solid Italic,-32,400,1</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -181,10 +181,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>166.730041504</x>
-                        <y>225.141708374</y>
+                        <x>149.965179443</x>
+                        <y>231.661224365</y>
                         <z>0</z>
-                        <width>315.50012207</width>
+                        <width>359.27545166</width>
                         <height>48.000457764</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
