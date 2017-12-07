@@ -10,6 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout order="0">Level Eight</layout>
         <layout order="1">Level Seven</layout>
         <layout order="2">Level Six</layout>
@@ -19,6 +20,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">Level Two</layout>
         <layout order="7">Level One</layout>
         <event-sheet active="1" order="8">Level One Event Sheet</event-sheet>
+=======
+        <layout order="9">Level Eight</layout>
+        <layout order="8">Level Seven</layout>
+        <layout order="7">Level Six</layout>
+        <layout order="6">Level Five</layout>
+        <layout order="5">Level Four</layout>
+        <layout order="4">Level Three</layout>
+        <layout order="3">Level Two</layout>
+        <layout order="2">Level One</layout>
+        <layout active="1" order="0">Title</layout>
+        <layout order="10">VictoryScreen</layout>
+        <layout order="1">Controls</layout>
+        <event-sheet order="11">Level One Event Sheet</event-sheet>
+>>>>>>> 11d86b6b7d40748bd5d101a9bbdb46e20dfe5b0d
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
