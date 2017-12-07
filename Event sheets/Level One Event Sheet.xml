@@ -55,6 +55,11 @@
                             <param id="0" name="Variable">unmatched2</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="172754211467024" type="BearPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="394652110387751" type="Bear" />
                         <action id="-9" name="Destroy" sid="949380595102961" type="BearPrint" />
                     </actions>
@@ -85,6 +90,11 @@
                         </action>
                         <action id="-9" name="Destroy" sid="945909055640790" type="RedPanda" />
                         <action id="-9" name="Destroy" sid="288257301602305" type="RedPandaPrint" />
+                        <action id="0" name="Spawn another object" sid="951723770296956" type="RedPandaPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -104,6 +114,14 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="944732118663635" type="BearPrint">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="331164539406712" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="622989606410034" type="System">
                             <param id="0" name="Layout">Level Two</param>
                         </action>
@@ -122,26 +140,34 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="423067893660473" type="RedPandaPrint">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="192023870127627" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="972381297094590" type="System">
+                            <param id="0" name="Layout">Level Two</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="861440914133435">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="414185530937331" type="System">
+                            <param id="0" name="Variable">unmatched2</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="232599470518867" type="System">
                             <param id="0" name="Layout">Level Two</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="861440914133435">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="414185530937331" type="System">
-                    <param id="0" name="Variable">unmatched2</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="232599470518867" type="System">
-                    <param id="0" name="Layout">Level Two</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

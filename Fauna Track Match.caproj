@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -47,7 +48,7 @@
     <object-folder>
         <object-type name="TitleBG" sid="600846933086130">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\lmUBSda.jpg" />
+            <texture original-source="C:\Users\Berenis\Pictures\Saved Pictures\background-1424779_960_720.jpg" />
         </object-type>
         <object-type name="TitleFont" sid="403286770506911">
             <plugin id="Text" />
@@ -1206,6 +1207,14 @@
         </object-type>
         <object-type name="highScore" sid="364260108560325">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="LeafParticles" sid="393543087228057">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\Berenis\Pictures\Artwork\Earth Curse Mark.png" />
+        </object-type>
+        <object-type name="IncorrectParticles" sid="599762042917304">
+            <plugin id="Particles" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
