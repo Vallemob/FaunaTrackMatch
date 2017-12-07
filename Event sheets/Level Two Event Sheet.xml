@@ -55,6 +55,11 @@
                             <param id="0" name="Variable">Unmatched</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="136297596231372" type="OwlPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="110291503603362" type="Owl" />
                         <action id="-9" name="Destroy" sid="102046632826461" type="OwlPrint" />
                     </actions>
@@ -82,6 +87,11 @@
                         <action id="-11" name="Subtract from" sid="376495656197356" type="System">
                             <param id="0" name="Variable">Unmatched</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="983430275202929" type="CrowPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="568905199976611" type="Crow" />
                         <action id="-9" name="Destroy" sid="421419873777349" type="CrowPrint" />
@@ -111,6 +121,11 @@
                             <param id="0" name="Variable">Unmatched</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="831459827004305" type="EaglePrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="828189704414559" type="BaldEagle" />
                         <action id="-9" name="Destroy" sid="921940408289502" type="EaglePrint" />
                     </actions>
@@ -135,6 +150,14 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="880908530244169" type="BaldEagle">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="953153111976118" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="105942797304899" type="System">
                             <param id="0" name="Layout">Level Three</param>
                         </action>
@@ -156,6 +179,14 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="958894137687217" type="BaldEagle">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="426235848095029" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="180700770839647" type="System">
                             <param id="0" name="Layout">Level Three</param>
                         </action>
@@ -176,6 +207,14 @@
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="422063983908425" type="Crow">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="189421182733328" type="System">
+                            <param id="0" name="Seconds">0.5</param>
                         </action>
                         <action id="-2" name="Go to layout" sid="589295866022500" type="System">
                             <param id="0" name="Layout">Level Three</param>

@@ -55,6 +55,11 @@
                             <param id="0" name="Variable">Unmatched3</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="497827885438717" type="FoxPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="224041115834536" type="Fox" />
                         <action id="-9" name="Destroy" sid="316624634285580" type="FoxPrint" />
                     </actions>
@@ -82,6 +87,11 @@
                         <action id="-11" name="Subtract from" sid="118578462013445" type="System">
                             <param id="0" name="Variable">Unmatched3</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="691710779626183" type="WolfPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="643540525974615" type="wolf" />
                         <action id="-9" name="Destroy" sid="680532559933203" type="WolfPrint" />
@@ -111,6 +121,11 @@
                             <param id="0" name="Variable">Unmatched3</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="811246535280959" type="DogPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="863624952958315" type="Pug" />
                         <action id="-9" name="Destroy" sid="641479421519638" type="DogPrint" />
                     </actions>
@@ -139,6 +154,11 @@
                             <param id="0" name="Variable">Unmatched3</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="388099856792937" type="CoyotePrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="352489573340998" type="Coyote" />
                         <action id="-9" name="Destroy" sid="970696169724574" type="CoyotePrint" />
                     </actions>
@@ -152,35 +172,8 @@
                         <condition id="0" name="On collision with another object" sid="559688589704869" type="FoxPrint">
                             <param id="0" name="Object">wolf</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="419007401781657" type="FoxPrint">
-                            <param id="0" name="Object">Coyote</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="984545483005407" type="FoxPrint">
-                            <param id="0" name="Object">Pug</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="267078561441359" type="WolfPrint">
-                            <param id="0" name="Object">Fox</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="726369101856890" type="WolfPrint">
-                            <param id="0" name="Object">Coyote</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="782038984504119" type="WolfPrint">
-                            <param id="0" name="Object">Pug</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="418782888595110" type="DogPrint">
-                            <param id="0" name="Object">Fox</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="969961184097476" type="DogPrint">
-                            <param id="0" name="Object">Coyote</param>
-                        </condition>
                         <condition id="0" name="On collision with another object" sid="513856213929768" type="DogPrint">
                             <param id="0" name="Object">wolf</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="506865806413399" type="CoyotePrint">
-                            <param id="0" name="Object">Fox</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="125258249437022" type="CoyotePrint">
-                            <param id="0" name="Object">Pug</param>
                         </condition>
                         <condition id="0" name="On collision with another object" sid="397914232320075" type="CoyotePrint">
                             <param id="0" name="Object">wolf</param>
@@ -193,7 +186,111 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="675939274320899" type="wolf">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="595359987028770" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="551339509548038" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="752896150061439">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="331935503616820" type="FoxPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="955350459402701" type="WolfPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="664445742253545" type="DogPrint">
+                            <param id="0" name="Object">Coyote</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="993664501701642" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="207472983982501" type="Coyote">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="312989144156297" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="173636664375289" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="290684311423214">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="657927895826212" type="FoxPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="646076208466619" type="WolfPrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="292605486479634" type="CoyotePrint">
+                            <param id="0" name="Object">Pug</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="982479613066178" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="544830011116753" type="Pug">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="209399495218975" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="390688737909065" type="System">
+                            <param id="0" name="Layout">Level Four</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="830835086627139">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="486263072939234" type="WolfPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="154363041713488" type="DogPrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="948109619076117" type="CoyotePrint">
+                            <param id="0" name="Object">Fox</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="528888585145587" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="863288461480297" type="Fox">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="775405575179128" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="760496151500921" type="System">
                             <param id="0" name="Layout">Level Four</param>
                         </action>
                     </actions>

@@ -55,6 +55,11 @@
                             <param id="0" name="Variable">Unmatched4</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="391514564271566" type="Cow">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="996326636821700" type="Cow" />
                         <action id="-9" name="Destroy" sid="253887022071202" type="CowPrint" />
                     </actions>
@@ -82,6 +87,11 @@
                         <action id="-11" name="Subtract from" sid="895780144443802" type="System">
                             <param id="0" name="Variable">Unmatched4</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="327305865204140" type="DeerPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="647496997307299" type="Deer" />
                         <action id="-9" name="Destroy" sid="555873603890165" type="DeerPrint" />
@@ -111,6 +121,11 @@
                             <param id="0" name="Variable">Unmatched4</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="147299754542050" type="BoarPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="542701913359422" type="Boar" />
                         <action id="-9" name="Destroy" sid="854551989964442" type="BoarPrint" />
                     </actions>
@@ -139,6 +154,11 @@
                             <param id="0" name="Variable">Unmatched4</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="373172133107330" type="PigPrint">
+                            <param id="0" name="Object">LeafParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="142255886116729" type="Pig" />
                         <action id="-9" name="Destroy" sid="792208415294553" type="PigPrint" />
                     </actions>
@@ -166,38 +186,11 @@
                         <condition id="0" name="On collision with another object" sid="157889616614372" type="CowPrint">
                             <param id="0" name="Object">Boar</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="970988161155320" type="CowPrint">
-                            <param id="0" name="Object">Deer</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="998664089750941" type="CowPrint">
-                            <param id="0" name="Object">Pig</param>
-                        </condition>
                         <condition id="0" name="On collision with another object" sid="322006223268416" type="DeerPrint">
                             <param id="0" name="Object">Boar</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="475553078232612" type="DeerPrint">
-                            <param id="0" name="Object">Cow</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="224418677022871" type="DeerPrint">
-                            <param id="0" name="Object">Pig</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="907317238380964" type="BoarPrint">
-                            <param id="0" name="Object">Cow</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="804481073290719" type="BoarPrint">
-                            <param id="0" name="Object">Deer</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="672516558361856" type="BoarPrint">
-                            <param id="0" name="Object">Pig</param>
-                        </condition>
                         <condition id="0" name="On collision with another object" sid="531044747115703" type="PigPrint">
                             <param id="0" name="Object">Boar</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="632228029140015" type="PigPrint">
-                            <param id="0" name="Object">Deer</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="681503003654968" type="PigPrint">
-                            <param id="0" name="Object">Cow</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -207,7 +200,74 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
+                        <action id="0" name="Spawn another object" sid="263588790896392" type="Boar">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="933706025810853" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="111708238311238" type="System">
+                            <param id="0" name="Layout">Level Five</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="564215578795455">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="143707565364278" type="CowPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="644097368197325" type="CowPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="655639423485656" type="CowPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="976844235724437" type="DeerPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="902661563480321" type="DeerPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="156532694964691" type="DeerPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="106801970887473" type="BoarPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="102830319778130" type="BoarPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="661411357286878" type="BoarPrint">
+                            <param id="0" name="Object">Pig</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="327466803138410" type="PigPrint">
+                            <param id="0" name="Object">Boar</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="472088904119314" type="PigPrint">
+                            <param id="0" name="Object">Deer</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="212788881899524" type="PigPrint">
+                            <param id="0" name="Object">Cow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="565318785959924" type="Audio">
+                            <param id="0" name="Audio file">Sad_Trombone-Joe_Lamb-665429450</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="278119131985222" type="Deer">
+                            <param id="0" name="Object">IncorrectParticles</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="935542233469853" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="552840961583706" type="System">
                             <param id="0" name="Layout">Level Five</param>
                         </action>
                     </actions>
