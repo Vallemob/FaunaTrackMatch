@@ -1214,7 +1214,7 @@
         </object-type>
         <object-type name="IncorrectParticles" sid="599762042917304">
             <plugin id="Particles" />
-            <texture />
+            <texture original-source="C:\Users\Berenis\Pictures\Artwork\Earth Curse Mark.png" />
         </object-type>
     </object-folder>
     <families />
